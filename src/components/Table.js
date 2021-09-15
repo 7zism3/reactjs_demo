@@ -12,19 +12,19 @@ export default function Table(props) {
       </thead>
       <tbody>
         <tr>
-          <td>props</td>
-          <td>random</td>
-          <td>data</td>
-          <td>placeholder</td>
+          <td>1</td>
+          <td>Điều hoà T0123</td>
+          <td>Toshiba</td>
+          <td>3.000.0000</td>
           <td>
             <button className="btn btn-danger">Xóa</button>
           </td>
         </tr>
         <tr>
-          <td>1,002</td>
-          <td>placeholder</td>
-          <td>irrelevant</td>
-          <td>visual</td>
+          <td>2</td>
+          <td>Điều hoà LG3412</td>
+          <td>LG</td>
+          <td>10.100.000</td>
           <td>
             <button className="btn btn-danger">Xóa</button>
           </td>
