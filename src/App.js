@@ -21,8 +21,13 @@ function App() {
     productService.getAll().then((response) => setProducts(response.data));
   }, []);
 
-  const onHandleAdd = (product) => {
-    setProducts([...products, product]);
+  const onHandleAdd = async (data) => {
+    try {
+      const { product } = await productService.add(data);
+      setProducts([...products, product]);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   const onHandleDelete = async (id) => {

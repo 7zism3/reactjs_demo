@@ -63,9 +63,6 @@ export default function Table(props) {
       </table>
       <Switch>
         <Route path={`${url}/:id`} exact>
-          Detail Product
-        </Route>
-        <Route path={`${url}/:id/edit`}>
           <EditProduct {...props} />
         </Route>
       </Switch>

@@ -29,6 +29,13 @@ const EditProduct = (props) => {
         {errors.name && <span>Field name is require</span>}
       </div>
       <div>
+        <textarea
+          {...register("company")}
+          placeholder="Hãng sản phẩm"
+          value={productEidt.company}
+        ></textarea>
+      </div>
+      <div>
         <input
           type="price"
           {...register("price", { required: true })}
@@ -38,10 +45,7 @@ const EditProduct = (props) => {
         <br />
         {errors.price && <span>Field price is require</span>}
       </div>
-      <div>
-        <textarea {...register("desc")} placeholder="mô tả sản phẩm"></textarea>
-      </div>
-      <button type="submit">Chỉnh sửa sản phẩm</button>
+      <button type="submit">Lưu sản phẩm</button>
     </form>
   );
 };

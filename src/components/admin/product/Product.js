@@ -42,9 +42,6 @@ export default function Product(props) {
           <AddProduct {...props} />
         </Route>
         <Route path="/product/:id" exact>
-          Detail Product
-        </Route>
-        <Route path="/product/:id/edit">
           <EditProduct {...props} />
         </Route>
       </Switch>
