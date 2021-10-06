@@ -70,7 +70,7 @@ export default function Table(props) {
         </Route>
       </Switch>
 
-      <Switch>
+      {/* <Switch>
         <Route exact path={url}>
           {props.products.map((item, index) => (
             <div key={index}>
@@ -89,7 +89,7 @@ export default function Table(props) {
         <Route path={`${url}/:id/edit`}>
           <Edit {...props} />
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
