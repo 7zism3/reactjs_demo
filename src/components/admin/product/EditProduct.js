@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useHistory, useParams } from "react-router-dom";
-import Product from "./Product";
+import Product from "./Products";
 
 const EditProduct = (props) => {
   const history = useHistory();
@@ -17,36 +17,86 @@ const EditProduct = (props) => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <div>
-        <input
-          type="text"
-          {...register("name", { required: true })}
-          placeholder="Tên sản phẩm"
-          value={productEidt.name}
-        />
-        <br />
-        {errors.name && <span>Field name is require</span>}
+    <div>
+      <div className="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom ">
+        <h2 className="h2 text-center ">Chỉnh sửa sản phẩm</h2>
       </div>
-      <div>
-        <textarea
-          {...register("company")}
-          placeholder="Hãng sản phẩm"
-          value={productEidt.company}
-        ></textarea>
-      </div>
-      <div>
-        <input
-          type="price"
-          {...register("price", { required: true })}
-          placeholder="Giá sản phẩm"
-          value={productEidt.price}
-        />
-        <br />
-        {errors.price && <span>Field price is require</span>}
-      </div>
-      <button type="submit">Lưu sản phẩm</button>
-    </form>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <div className="mb-3">
+          <label className="form-label ">Tên sản phẩm </label>
+          <input
+            type="text"
+            className="form-control"
+            {...register("name", { required: true })}
+            defaultValue={productEidt.name}
+          />
+          {errors.name && (
+            <span className="text-danger">
+              Không được để trống tên sản phẩm
+            </span>
+          )}
+        </div>
+        <div className="mb-3">
+          <label className="form-label ">Nhà sản xuất</label>
+          <input
+            type="text"
+            className="form-control"
+            {...register("company", { required: true })}
+            defaultValue={productEidt.company}
+          />
+          {errors.name && (
+            <span className="text-danger">
+              Không được để trống nhà sản xuất
+            </span>
+          )}
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Giá sản phẩm</label>
+          <input
+            type="number"
+            className="form-control"
+            {...register("price", { required: true, maxLength: 10 })}
+            defaultValue={productEidt.price}
+          />
+          {errors.price && (
+            <span className="text-danger">
+              Không được để trống giá sản phẩm{" "}
+            </span>
+          )}
+        </div>
+
+        <div className="mb-3">
+          <label className="form-label">Ảnh sản phẩm</label>
+          <input
+            type="text"
+            className="form-control"
+            {...register("image", { required: true })}
+            defaultValue={productEidt.image}
+          />
+          {errors.img && (
+            <span className="text-danger">
+              Không được để trống ảnh sản phẩm{" "}
+            </span>
+          )}
+        </div>
+        <div className="col-md-3 d-none d-md-flex bg-image">
+          <img src={productEidt.image} w-100 />
+        </div>
+
+        <div className="mb-3">
+          <label className="form-label">Tình trạng</label>
+          <select className="form-control" {...register("status")}>
+            <option value="false">hết hàng</option>
+            <option value="true">còn hàng</option>
+          </select>
+        </div>
+
+        <button type="submit" className="btn btn-primary">
+          {" "}
+          Chỉnh sửa{" "}
+        </button>
+      </form>
+    </div>
   );
 };
 export default EditProduct;

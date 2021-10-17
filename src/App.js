@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
 import Routes from "./components/Routes";
 import * as productService from "./api/product";
 
@@ -23,7 +22,9 @@ function App() {
 
   const onHandleAdd = async (data) => {
     try {
+      // data = [...data, +products[products.length - 1].id];
       const { product } = await productService.add(data);
+      // product.id += products[products.length - 1].id;
       setProducts([...products, product]);
     } catch (error) {
       console.log(error);
@@ -56,21 +57,12 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <div>
-        <Header />
-        <div className="container-fluid">
-          <div className="row">
-            <Routes
-              products={products}
-              onAdd={onHandleAdd}
-              onRemoveItem={onHandleDelete}
-              onEditItem={onHandleEdit}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
+    <Routes
+      products={products}
+      onAdd={onHandleAdd}
+      onRemoveItem={onHandleDelete}
+      onEditItem={onHandleEdit}
+    />
   );
 }
 

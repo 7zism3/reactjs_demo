@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "email": "7zism3@gmail.com",
+      "password": "$2a$10$D0a/Z6dz5ad4y1r4ExjleO1BVYmmqK.2Zipuqdkmq9cUkRTrgJ2Ua",
+      "id": 1
+    }
+  ],
+  "product": [
+    {
+      "createdAt": "2021-10-17T02:41:52.651Z",
+      "name": "Jackie Gusikowski",
+      "image": "http://placeimg.com/640/480/abstract",
+      "price": 54022,
+      "company": "Runte Inc",
+      "status": false,
+      "id": "12"
+    },
+    {
+      "createdAt": "2021-10-17T05:25:38.222Z",
+      "name": "Julia Lynch II",
+      "image": "http://placeimg.com/640/480/fashion",
+      "price": 53775,
+      "company": "Gutkowski, Lowe and Hudson",
+      "status": true,
+      "id": "13"
+    },
+    {
+      "createdAt": "2021-10-17T03:51:12.683Z",
+      "name": "Marshall Kuvalis",
+      "image": "http://placeimg.com/640/480/sports",
+      "price": 99881,
+      "company": "Parker, Streich and Shields",
+      "status": true,
+      "id": "14"
+    },
+    {
+      "createdAt": "2021-10-17T09:47:07.459Z",
+      "name": "Robin Schulist",
+      "image": "http://placeimg.com/640/480/nightlife",
+      "price": 52812,
+      "company": "Hackett and Sons",
+      "status": false,
+      "id": "15"
+    },
+    {
+      "createdAt": "2021-10-17T05:58:16.344Z",
+      "name": "Stephanie Nikolaus",
+      "image": "http://placeimg.com/640/480/city",
+      "price": 82031,
+      "company": "Kuphal, Hodkiewicz and Wunsch",
+      "status": true,
+      "id": "16"
+    },
+    {
+      "createdAt": "2021-10-17T13:26:22.585Z",
+      "name": "Domingo Lowe",
+      "image": "http://placeimg.com/640/480/people",
+      "price": 4903,
+      "company": "Gibson - Hansen",
+      "status": false,
+      "id": "17"
+    },
+    {
+      "createdAt": "2021-10-17T06:35:23.662Z",
+      "name": "Miss Jake Frami",
+      "image": "http://placeimg.com/640/480/nightlife",
+      "price": 74450,
+      "company": "Macejkovic, Yundt and Crist",
+      "status": true,
+      "id": "18"
+    },
+    {
+      "createdAt": "2021-10-17T04:56:58.133Z",
+      "name": "Louise Mohr",
+      "image": "http://placeimg.com/640/480/animals",
+      "price": 61217,
+      "company": "Block - Kutch",
+      "status": true,
+      "id": "19"
+    },
+    {
+      "createdAt": "2021-10-17T11:08:10.226Z",
+      "name": "Olive Wiegand",
+      "image": "http://placeimg.com/640/480/abstract",
+      "price": 27876,
+      "company": "Morar LLC",
+      "status": false,
+      "id": "20"
+    },
+    {
+      "createdAt": "2021-10-17T10:07:31.311Z",
+      "name": "Ms. Kurt Raynor",
+      "image": "http://placeimg.com/640/480/technics",
+      "price": 85733,
+      "company": "Hackett LLC",
+      "status": true,
+      "id": "21"
+    },
+    {
+      "createdAt": "2021-10-17T10:26:44.650Z",
+      "name": "Lorene Bosco",
+      "image": "http://placeimg.com/640/480/abstract",
+      "price": 53934,
+      "company": "Daugherty - Ebert",
+      "status": false,
+      "id": "22"
+    },
+    {
+      "createdAt": "2021-10-17T16:07:12.123Z",
+      "name": "Noah Upton",
+      "image": "http://placeimg.com/640/480/food",
+      "price": 96439,
+      "company": "Sauer - Gutkowski",
+      "status": true,
+      "id": "23"
+    },
+    {
+      "createdAt": "2021-10-16T21:38:32.463Z",
+      "name": "Moses Turcotte",
+      "image": "http://placeimg.com/640/480/fashion",
+      "price": 56978,
+      "company": "Waters and Sons",
+      "status": false,
+      "id": "24"
+    },
+    {
+      "createdAt": "2021-10-17T09:48:21.214Z",
+      "name": "Dr. Raymond Kuhic",
+      "image": "http://placeimg.com/640/480/fashion",
+      "price": 94197,
+      "company": "Gleichner, Shanahan and Schuster",
+      "status": false,
+      "id": "25"
+    },
+    {
+      "createdAt": "2021-10-17T12:44:04.426Z",
+      "name": "Jordan Toy",
+      "image": "http://placeimg.com/640/480/sports",
+      "price": 99017,
+      "company": "Denesik - Thompson",
+      "status": true,
+      "id": "26"
+    },
+    {
+      "createdAt": "2021-10-16T21:54:40.096Z",
+      "name": "Jill Yundt",
+      "image": "http://placeimg.com/640/480/fashion",
+      "price": 67489,
+      "company": "Bartell - Rogahn",
+      "status": true,
+      "id": "27"
+    },
+    {
+      "createdAt": "2021-10-16T22:27:45.485Z",
+      "name": "Willie Turcotte",
+      "image": "http://placeimg.com/640/480/fashion",
+      "price": 32724,
+      "company": "Effertz - Nitzsche",
+      "status": true,
+      "id": "28"
+    },
+    {
+      "createdAt": "2021-10-17T11:31:22.064Z",
+      "name": "Jose Hackett",
+      "image": "http://placeimg.com/640/480/food",
+      "price": 20988,
+      "company": "Wisoky and Sons",
+      "status": true,
+      "id": "29"
+    },
+    {
+      "createdAt": "2021-10-17T08:18:12.135Z",
+      "name": "Paulette Daugherty",
+      "image": "http://placeimg.com/640/480/transport",
+      "price": 27565,
+      "company": "Bins - Deckow",
+      "status": true,
+      "id": "30"
+    },
+    {
+      "createdAt": "2021-10-16T21:58:13.640Z",
+      "name": "Antonia Steuber",
+      "image": "http://placeimg.com/640/480/food",
+      "price": 7885912,
+      "company": "Frami - Koepp",
+      "status": true,
+      "id": "31"
+    },
+    {
+      "name": "7zism3",
+      "company": "7zism3",
+      "price": "10000123",
+      "image": "https://1.bp.blogspot.com/-n_bFzL9lPUU/Xp23H9Sk8yI/AAAAAAAAhyA/JYfvZhwguxc8vT_YS3w14Xi3YWf3hxqIQCLcBGAsYHQ/s1600/Hinh-Anh-Dep-Tren-Mang%2B%25282%2529.jpg",
+      "status": "true",
+      "id": "HwvEjFM"
+    },
+    {
+      "name": "7zism3",
+      "company": "7zism3",
+      "price": "10007",
+      "image": "https://1.bp.blogspot.com/-n_bFzL9lPUU/Xp23H9Sk8yI/AAAAAAAAhyA/JYfvZhwguxc8vT_YS3w14Xi3YWf3hxqIQCLcBGAsYHQ/s1600/Hinh-Anh-Dep-Tren-Mang%2B%25282%2529.jpg",
+      "status": "true",
+      "id": "KJb3TvB"
+    }
+  ]
+}
